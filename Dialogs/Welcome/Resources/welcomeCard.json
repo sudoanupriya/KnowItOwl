@@ -1,0 +1,29 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://vignette.wikia.nocookie.net/animaljam/images/b/b0/Purple_owl_graphic.png/revision/latest/scale-to-width-down/170?cb=20160830022935",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Welcome to Know It Owl!",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": "yes",
+      "text": "I provide answers to your questions related to articles, books or other large data.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ]
+}
